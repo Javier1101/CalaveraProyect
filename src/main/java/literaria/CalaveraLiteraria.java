@@ -34,24 +34,21 @@ public class CalaveraLiteraria extends JFrame {
         panel.setVisible(true);
     }*/
         //panel.setBackground(Color.BLACK);//Color al panel
-        JLabel etiqueta = new JLabel("Tayler feliz sonreia\n"
-                + "queriendo la escula disfrutar\n"
-                + "mas la calaca en la mira le tenia\n"
-                + "ya se lo queria llevar\n"
-                + "\n"
-                + "De nada sirvio su llanto\n"
-                + "ni sus suplicas de piedad\n"
-                + "la calaca se la echo en el manto\n"
-                + "porque todas las materia reprobaba ya\n"
-                + "");//Etiqueta
+        JLabel etiqueta = new JLabel("<html>Tayler feliz sonreia queriendo "
+ + "la escula disfrutar mas la calaca en la mira le tenia"
+ + " ya se lo queria llevar"
+ + " De nada sirvio su llanto ni sus suplicas de piedad"
+ + " la calaca se la echo en el manto"
+ + " porque todas las materia reprobaba ya<html>"
+                );//Etiqueta
         //panel.add(etiqueta);
 
         etiqueta.setBounds(10, 100, 365, 280);
         //etiqueta.setHorizontalAlignment(SwingConstants.CENTER);
         etiqueta.setForeground(Color.WHITE); //2stablecenos el
         etiqueta.setOpaque(true); //Establecenos pintar el fond
-        etiqueta.setBackground(Color.BLACK); //cambianos eb co!
-        etiqueta.setFont(new Font("chiller", 0, 30));
+        etiqueta.setBackground(Color.LIGHT_GRAY); //cambianos eb co!
+        etiqueta.setFont(new Font("Dreaming Outloud Script Pro", 0, 20));
         //panel.add(etiqueta); //agr Sy ariqueta 42 nape
         //etiqueta tipo imagen
         etiqueta.setVisible(false);
